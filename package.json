@@ -1,0 +1,11 @@
+{
+  "name": "class-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio site with project search, weather widget, and AI assistant",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  }
+}

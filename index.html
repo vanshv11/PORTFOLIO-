@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vansh Vyas — Personal Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero-layout">
+      <img
+        class="hero-photo"
+        src="images/profile.jpg"
+        alt="Profile photo of Vansh Vyas"
+        width="130"
+        height="130"
+      />
+      <div class="hero-details">
+        <p class="hero-label">Software Developer & Student</p>
+        <h1>Vansh Vyas</h1>
+        <p class="hero-lead">
+          Undergraduate CS Student & Full-Stack Web Developer
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <div class="about-layout">
+        <img
+          class="about-photo"
+          src="images/profile.jpg"
+          alt="Profile photo of Vansh Vyas"
+          width="160"
+          height="160"
+        />
+        <div class="about-copy">
+          <p>
+            Hello! I’m Vansh Vyas, a Computer Science & Engineering student passionate about building scalable web applications, distributed backend services, and clean developer tooling.
+          </p>
+          <p>
+            I spend most of my time architecting full-stack projects, diving deep into algorithms, and exploring modern cloud environments. I love turning complex logic into seamless, high-performance interfaces.
+          </p>
+          <p>
+            My goal is to strengthen my technical expertise, contribute actively to open source, and engineer impactful software alongside innovative engineering teams. I believe in continuous learning, building practical projects, and improving every day.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <p class="section-lead"></p>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>JavaScript & TypeScript</li>
+        <li>React.js</li>
+        <li>Node.js & Express</li>
+        <li>HTML & CSS</li>
+        <li>C/C++</li>
+        <li>PostgreSQL & MongoDB</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section class="projects" id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <div class="project-search">
+        <label class="visually-hidden" for="projectSearch">Search projects</label>
+        <input
+          id="projectSearch"
+          type="search"
+          placeholder="Search projects by title, description, or technology"
+          autocomplete="off"
+          aria-controls="projects-list"
+        />
+      </div>
+      <p id="projectSearchEmpty" class="project-search-empty" hidden>
+        No projects match your search.
+      </p>
+      <ul id="projects-list" class="projects-list">
+        <li class="project-card" data-technologies="React Node.js WebSocket TailwindCSS JavaScript">
+          <h3 class="project-title">
+            <a href="https://github.com/vanshvyas/devpulse-dashboard" target="_blank" rel="noopener noreferrer">
+              DevPulse — Developer Activity Dashboard
+            </a>
+          </h3>
+          <p class="project-description">
+            A real-time developer metrics platform tracking repository commits, pull request velocity, and build statuses with live WebSockets and interactive chart analytics.
+          </p>
+          <p class="project-tech">React · Node.js · WebSocket · TailwindCSS</p>
+          <p class="project-links">
+            Repository:
+            <a href="https://github.com/vanshvyas/devpulse-dashboard" target="_blank" rel="noopener noreferrer">devpulse-dashboard</a>
+          </p>
+        </li>
+        <li class="project-card" data-technologies="Python FastAPI PostgreSQL JavaScript">
+          <h3 class="project-title">
+            <a href="https://github.com/vanshvyas/clouddocs-workspace" target="_blank" rel="noopener noreferrer">
+              CloudDocs — Collaborative Markdown Workspace
+            </a>
+          </h3>
+          <p class="project-description">
+            A cloud-based markdown editor supporting real-time concurrent multi-user editing, document revision histories, syntax highlighting, and instant PDF/HTML export.
+          </p>
+          <p class="project-tech">Python · FastAPI · PostgreSQL · JavaScript</p>
+          <p class="project-links">
+            Repository:
+            <a href="https://github.com/vanshvyas/clouddocs-workspace" target="_blank" rel="noopener noreferrer">clouddocs-workspace</a>
+          </p>
+        </li>
+        <li class="project-card" data-technologies="HTML CSS JavaScript Node.js">
+          <h3 class="project-title">
+            <a href="https://github.com/vanshvyas/taskflow-kanban" target="_blank" rel="noopener noreferrer">
+              TaskFlow — Kanban Productivity Suite
+            </a>
+          </h3>
+          <p class="project-description">
+            An intuitive drag-and-drop productivity suite featuring custom columns, priority tags, deadline notifications, and offline local storage synchronization.
+          </p>
+          <p class="project-tech">HTML · CSS · JavaScript · Node.js</p>
+          <p class="project-links">
+            Repository:
+            <a href="https://github.com/vanshvyas/taskflow-kanban" target="_blank" rel="noopener noreferrer">taskflow-kanban</a>
+          </p>
+        </li>
+        <li class="project-card" data-technologies="JavaScript Canvas CSS">
+          <h3 class="project-title">
+            <a href="https://github.com/vanshvyas/algo-visualizer" target="_blank" rel="noopener noreferrer">
+              AlgoVisual — Interactive Algorithm Visualizer
+            </a>
+          </h3>
+          <p class="project-description">
+            An interactive educational tool that illustrates sorting algorithms (QuickSort, MergeSort) and pathfinding routines (Dijkstra, A*) with step-by-step canvas animations.
+          </p>
+          <p class="project-tech">JavaScript · Canvas API · CSS</p>
+          <p class="project-links">
+            Repository:
+            <a href="https://github.com/vanshvyas/algo-visualizer" target="_blank" rel="noopener noreferrer">algo-visualizer</a>
+          </p>
+        </li>
+        <li class="project-card" data-technologies="Python SQLite Chart.js">
+          <h3 class="project-title">
+            <a href="https://github.com/vanshvyas/aether-finance" target="_blank" rel="noopener noreferrer">
+              Aether — Personal Finance & Budget Tracker
+            </a>
+          </h3>
+          <p class="project-description">
+            A privacy-first budget management app that categorizes daily expenses, provides monthly cash flow breakdowns, and visualizes financial milestones.
+          </p>
+          <p class="project-tech">Python · SQLite · Chart.js</p>
+          <p class="project-links">
+            Repository:
+            <a href="https://github.com/vanshvyas/aether-finance" target="_blank" rel="noopener noreferrer">aether-finance</a>
+          </p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <section id="weather">
+    <h2>Weather</h2>
+
+    <input
+        type="text"
+        id="cityInput"
+        placeholder="Enter a city"
+    >
+
+    <button id="weatherButton">
+        Get Weather
+    </button>
+
+    <div id="weatherResult">
+        Enter a city to see the weather.
+    </div>
+  </section>
+
+  <section id="aiChatSection" class="ai-chat">
+    <h2>Ask My AI Assistant</h2>
+
+    <p>
+      Ask questions about Vansh's portfolio,
+      projects, background, and tech stack.
+    </p>
+
+    <div
+      id="chatMessages"
+      aria-live="polite"
+    ></div>
+
+    <form id="chatForm" class="chat-controls">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Ask a question..."
+        autocomplete="off"
+      />
+
+      <button id="sendButton" type="submit">
+        Send
+      </button>
+    </form>
+
+    <p id="chatStatus" role="status"></p>
+
+    <p class="chat-note">
+      AI chat is available during the local
+      classroom demonstration only.
+    </p>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact</h2>
+    <p class="section-lead">
+    </p>
+    <ul class="contact-list">
+      <li>
+        <span class="contact-label">Email</span>
+        <a href="mailto:vanshvyas.dev@gmail.com">vanshvyas.dev@gmail.com</a>
+      </li>
+      <li>
+        <span class="contact-label">GitHub</span>
+        <a href="https://github.com/vanshvyas" target="_blank" rel="noopener noreferrer">vanshvyas</a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="site-footer">
+    <p>Vansh Vyas — Personal Profile</p>
+  </footer>
+  <button id="themeToggle">Switch to Dark Mode</button>
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
